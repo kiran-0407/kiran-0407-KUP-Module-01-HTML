@@ -1,5 +1,7 @@
 # kiran-0407-KUP-Module-01-HTML
 
+This is a simple HTML form which fulfills the mentioned user stories. It can be run on any Browser.
+
 Fulfill the below user stories -
 
 User Story #1: I can see a title with id="title" in H1 sized text.
