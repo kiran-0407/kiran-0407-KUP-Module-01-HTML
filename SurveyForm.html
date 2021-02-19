@@ -12,12 +12,26 @@
   <p id="description">This is a Survey form</p>
 
   <form id="survey-form">
-  		
-		<input type="text" id="name" required><br><br>
 
-		<input type="email" id="email" required><br><br>
 
-		<input type="number" id="number" min="1" max="1000" required><br><br>
+  		<label for="name" id="name-label">Username: </label>
+		<input type="text" id="name" placeholder="Enter your username" required><br><br>
+
+		<label for="email" id="email-label">Email Id: </label>
+		<input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+		<label for="number" id="number-label">UserId: </label>
+		<input type="number" id="number" min="1" max="1000" placeholder="Enter Id" required><br><br>
+
+
+		<label for="dropdown">Choose State:</label>
+		<select name="dropdown" id="dropdown">
+			<option value="assam">Assam</option>
+			<option value="delhi">Delhi</option>
+ 			<option value="gujarat">Gujarat</option>
+			<option value="maharashtra">Maharashtra</option>
+			<option value="westbengal">West Bengal</option>
+		</select><br><br>
 
 	</form>
 
